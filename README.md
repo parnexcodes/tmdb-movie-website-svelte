@@ -1,4 +1,4 @@
-# Development
+# Deployment
 
 ### Clone & install dependencies
 
