@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte';
     import { element } from 'svelte/internal';
+    import Footer from '../../components/Footer.svelte'
     let api_key = '4c1c4651b470f738873f80310325d848'
     let result = []
   
@@ -33,10 +34,8 @@
   
   </section>
 <br>
-<div class="text-center py-4 text-white" style="background-color: rgba(0, 0, 0, 0.5)">
-    <p>Made with ❤️ by parnex</p>
-    <p>Powered by Svelte</p>
-</div>
+
+<Footer />
   
   <style>
     :root{

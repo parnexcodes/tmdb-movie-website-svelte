@@ -38,7 +38,7 @@
 
 </script>
 <div class="movie-info">
-  <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
+  <div class="container mx-auto px-4 py-11 flex flex-col md:flex-row">
       <div class="flex-none">
           <img src="{poster}" alt="poster" class="w-64 lg:w-96">
       </div>
@@ -74,6 +74,7 @@
     </div>
 </div>
 </div>
+
 <Footer />
 
   <style>
