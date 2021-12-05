@@ -4,6 +4,7 @@
     import { element } from 'svelte/internal';
     import {isActive, url} from '@roxi/routify'
     import Footer from '../../../components/Footer.svelte'
+    import Header from '../../../components/Header.svelte'
     let api_key = '4c1c4651b470f738873f80310325d848'
     let result = []
     let poster = ''
@@ -37,6 +38,7 @@
       });
 
 </script>
+<Header />
 <div class="movie-info">
   <div class="container mx-auto px-4 py-11 flex flex-col md:flex-row">
       <div class="flex-none">
