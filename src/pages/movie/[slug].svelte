@@ -80,6 +80,5 @@
   <style>
     :root{
       background-color: #181818;
-      overflow: hidden;
     }
 </style>

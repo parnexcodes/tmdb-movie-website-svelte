@@ -6,7 +6,7 @@
     let result = []
   
     const apiReq = async () => {
-      const response = await fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=${api_key}&language=en-US`)
+      const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${api_key}&language=en-US`)
       result = await response.json()
       result = result['results']
       console.log(result)
